@@ -1,0 +1,11 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #310302;
+}
+.wrapper{
+    background-color: #fff;
+    width: 993px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
