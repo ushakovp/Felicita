@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Angeltears;
+    src: url(../fonts/ANGELTEARS-trial.ttf);
+}
 html, body{
     margin: 0;
     padding: 0;
@@ -7,9 +11,12 @@ html, body{
     background-color: #fff;
     width: 993px;
     margin: 0 auto;
-    padding: 0 16px;
 }
-.header {background-color: pink;}
+.header {background: -webkit-linear-gradient(-90deg, #f5f5f5 0%, #fefbfb 100%);
+    background: -moz-linear-gradient(-90deg, #f5f5f5 0%, #fefbfb 100%);
+    background: -o-linear-gradient(-90deg, #f5f5f5 0%, #fefbfb 100%);
+    background: -ms-linear-gradient(-90deg, #f5f5f5 0%, #fefbfb 100%);
+    background: linear-gradient(180deg, #f5f5f5 0%, #fefbfb 100%);}
 .header:after,
 .services:after,
 .info:after,
@@ -20,14 +27,37 @@ html, body{
 }
 .logo{
     float: left;
-    width: 250px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.logo h1{
 }
 .menu{
     float: right;
     width: 570px;
+    min-height: 102px;
+    padding-right: 16px;
+}
+.main-nav{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 .main-nav li{
     display: inline-block;
+    line-height: 102px;
+    padding: 0 10px;
+}
+.main-nav li:last-child{
+    padding-right: 0;
+}
+.main-nav a{
+    display: block;
+    text-decoration: none;
+    color:  #531604;
+}
+.main-nav .active{
+    color:  #d8c197;
 }
 .service{
     max-width: 220px;
