@@ -9,3 +9,44 @@ html, body{
     margin: 0 auto;
     padding: 0 16px;
 }
+.header {background-color: pink;}
+.header:after,
+.services:after,
+.info:after,
+.footer:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.logo{
+    float: left;
+    width: 250px;
+}
+.menu{
+    float: right;
+    width: 570px;
+}
+.main-nav li{
+    display: inline-block;
+}
+.service{
+    max-width: 220px;
+    float: left;
+}
+.info-left-col{
+    float: left;
+    width: 620px;
+}
+.info-right-col{
+    float: right;
+    width: 310px;
+}
+.awards li{
+    display: inline-block;
+    background-color: gray;
+    height: 100px;
+}
+.section{
+    float: left;
+    width: 220px;
+}
