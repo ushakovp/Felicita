@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700);
 @font-face {
     font-family: Angeltears;
     src: url(../fonts/ANGELTEARS-trial.ttf);
@@ -79,4 +80,22 @@ html, body{
 .section{
     float: left;
     width: 220px;
+}
+.slide-heading{
+    color: #b88f3f;
+    font-size: 40px;
+}
+.slide-desc{
+    color: #d8c197;
+    font-family: "Open Sans",sans-serif;
+    font-size: 17px;
+    line-height: 18px;
+}
+.slide-button{
+    font-family: Bitter, serif;
+    font-weight: bold;
+    color: #fffffe;
+}
+.slide-button:after{
+    content: url("../images/i-next.png");
 }
