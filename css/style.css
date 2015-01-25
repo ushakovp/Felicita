@@ -99,3 +99,6 @@ html, body{
 .slide-button:after{
     content: url("../images/i-next.png");
 }
+.slider-nav li{
+    display: inline-block;
+}
