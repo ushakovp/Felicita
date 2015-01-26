@@ -82,18 +82,36 @@ html, body{
     width: 220px;
 }
 .slide-heading{
+    margin-left: 25px;
+    margin-top: 50px;
+    width: 470px;
     color: #b88f3f;
     font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .slide-desc{
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 550px;
     color: #d8c197;
     font-family: "Open Sans",sans-serif;
     font-size: 17px;
     line-height: 18px;
 }
 .slide-button{
+    background-color:  #b88f3f;
+    width: 204px;
+    height: 54px;
+    margin-top: 48px;
+    margin-left: 107px;
+    border-radius: 27px;
     font-family: Bitter, serif;
     font-weight: bold;
+    text-transform: uppercase;
+}
+.slide-button a{
+    text-decoration: none;
     color: #fffffe;
 }
 .slide-button:after{
