@@ -130,6 +130,14 @@ html, body{
 .slide-button:after{
     content: url("../images/i-next.png");
 }
+.slider-nav{
+    background-image: url(../images/slider/slider-nav/bg-pattern.png);
+    padding-top: 10px;
+}
+.slider-nav ul{
+    margin-left: 31px;
+}
 .slider-nav li{
     display: inline-block;
+    margin: 0 8px;
 }
