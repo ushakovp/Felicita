@@ -1,6 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea
-images/Thumbs.db
-images/slider/Thumbs.db
+*.[db]
 images/all.png
 images/1.jpg
