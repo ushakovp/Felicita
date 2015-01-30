@@ -141,3 +141,7 @@ html, body{
     display: inline-block;
     margin: 0 8px;
 }
+.service h2{
+    font-family: Bitter, serif;
+    color: #531604;
+}
