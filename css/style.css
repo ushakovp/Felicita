@@ -60,10 +60,6 @@ html, body{
 .main-nav .active{
     color:  #d8c197;
 }
-.service{
-    max-width: 220px;
-    float: left;
-}
 .info-left-col{
     float: left;
     width: 620px;
@@ -131,8 +127,6 @@ html, body{
     content: url("../images/i-next.png");
 }
 .slider-nav{
-    background-image: url(../images/slider/slider-nav/bg-pattern.png);
-    padding-top: 10px;
 }
 .slider-nav ul{
     margin-left: 31px;
@@ -141,10 +135,35 @@ html, body{
     display: inline-block;
     margin: 0 8px;
 }
+.service{
+    max-width: 220px;
+    float: left;
+    margin: 0 10px;
+}
 .service h2{
+    font-size: 20px;
     font-family: Bitter, serif;
     color: #531604;
+    text-align: center;
+    margin-top: 19px;
+}
+.service-desc{
+    font-family: OpenSans, sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+    color:  #536670;
+}
+.service a{
+    color:  #b88f3f;
+    text-decoration: none;
+}
+.service a:after{
+    content: url(../images/i-arrow.png);
+    margin-left: 10px;
+    vertical-align: text-bottom;
+
 }
 .services{
+    padding: 60px 16px 0;
     background-color: #475b66;
 }
