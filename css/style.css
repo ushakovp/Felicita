@@ -167,3 +167,14 @@ html, body{
     padding: 60px 16px 0;
     background-color: #475b66;
 }
+.event-banner{
+    margin: 0 27px;
+    background-image: url(../images/bg-event-banner.png);
+}
+.event-banner:before{
+    content: url("../images/dec-event-banner.png");
+    float: left;
+}
+.event-banner:after{
+    clear: both;
+}
