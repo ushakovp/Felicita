@@ -21,7 +21,8 @@ html, body{
 .header:after,
 .services:after,
 .info:after,
-.footer:after{
+.footer:after,
+.event-banner:after{
     content: '';
     display: table;
     clear: both;
@@ -171,10 +172,7 @@ html, body{
     margin: 0 27px;
     background-image: url(../images/bg-event-banner.png);
 }
-.event-banner:before{
-    content: url("../images/dec-event-banner.png");
+.event-banner img{
     float: left;
-}
-.event-banner:after{
-    clear: both;
+    padding: 15px;
 }
