@@ -188,3 +188,9 @@ html, body{
     padding-top: 25px;
     margin-bottom: 0;
 }
+.event-banner p {
+    margin-top: 1px;
+    margin-left: 318px;
+    font-size: 28px;
+    font-family: OpenSans, sans-serif;
+}
