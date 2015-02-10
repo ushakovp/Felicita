@@ -200,3 +200,10 @@ html, body{
     margin-left: 246px;
     font-size: 17px;
 }
+.popular-dishes h2{
+    font-family: Bitter, serif;
+    color: #3c0403;
+    margin-top: 42px;
+    margin-left: 27px;
+    letter-spacing: 0.5px;
+}
