@@ -169,8 +169,9 @@ html, body{
     background-color: #475b66;
 }
 .event-banner{
-    margin: 0 27px;
+    margin: 39px 27px 0;
     background-image: url(../images/bg-event-banner.png);
+    color: #531604;
 }
 .event-banner img{
     float: left;
@@ -178,19 +179,24 @@ html, body{
 .event-banner span{
     color: #ffffff;
 }
-.event-header{
+.event-banner .event-header{
     font-family: Bitter, serif;
     text-transform: uppercase;
     font-size: 40px;
     line-height: 41px;
-    color: #531604;
     margin-left: 245px;
     padding-top: 25px;
     margin-bottom: 0;
+    font-weight: bold;
 }
 .event-banner p {
     margin-top: 1px;
     margin-left: 318px;
+    margin-bottom: 7px;
     font-size: 28px;
     font-family: OpenSans, sans-serif;
+}
+.event-banner .event-footer{
+    margin-left: 246px;
+    font-size: 17px;
 }
