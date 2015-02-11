@@ -207,3 +207,6 @@ html, body{
     margin-left: 27px;
     letter-spacing: 0.5px;
 }
+.popular-dishes-nav{
+    float: right;
+}
