@@ -211,3 +211,6 @@ html, body{
 .popular-dishes-nav{
     float: right;
 }
+.popular-dishes ul{
+    clear: both;
+}
