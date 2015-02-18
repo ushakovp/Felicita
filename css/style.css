@@ -214,3 +214,7 @@ html, body{
 .popular-dishes ul{
     clear: both;
 }
+.dish-name{
+    font-family: Bitter, serif;
+    color: #b88f3f;
+}
