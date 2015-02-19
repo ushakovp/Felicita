@@ -63,7 +63,7 @@ html, body{
 }
 .info-left-col{
     float: left;
-    width: 620px;
+    width: 646px;
 }
 .info-right-col{
     float: right;
@@ -210,11 +210,34 @@ html, body{
 }
 .popular-dishes-nav{
     float: right;
+    margin-top: 33px;
+    margin-right: 11px;
 }
 .popular-dishes ul{
     clear: both;
 }
-.dish-name{
+.popular-dishes-nav li{
+    display: inline-block;
+}
+
+.popular-dishes-nav .prev{
+    width: 25px;
+    height: 25px;
+    background-image: url("../images/i-prev.png");
+}
+.popular-dishes-nav .next{
+    width: 25px;
+    height: 25px;
+    background-image: url("../images/i-dishes-next.png");
+}
+.dish-name,
+.dish-price{
     font-family: Bitter, serif;
     color: #b88f3f;
+}
+.dish-desc{
+    font-family: OpenSans, sans-serif;
+    color: #536670;
+    font-size: 14px;
+    line-height: 24px;
 }
