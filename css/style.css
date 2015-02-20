@@ -215,6 +215,7 @@ html, body{
 }
 .popular-dishes ul{
     clear: both;
+    list-style-type: none;
 }
 .popular-dishes-nav li{
     display: inline-block;
@@ -229,6 +230,9 @@ html, body{
     width: 25px;
     height: 25px;
     background-image: url("../images/i-dishes-next.png");
+}
+.dish img{
+    float: left;
 }
 .dish-name,
 .dish-price{
