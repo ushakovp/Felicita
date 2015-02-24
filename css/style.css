@@ -219,6 +219,9 @@ html, body{
     padding-left: 25px;
     padding-top: 14px;
 }
+.popular-dishes ul li{
+    margin-bottom: 23px;
+}
 .popular-dishes-nav li{
     display: inline-block;
 }
