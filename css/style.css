@@ -219,7 +219,7 @@ html, body{
     padding-left: 25px;
     padding-top: 14px;
 }
-.popular-dishes ul li{
+.popular-dishes>ul li{
     margin-bottom: 23px;
 }
 .popular-dishes-nav li{
@@ -240,8 +240,7 @@ html, body{
     float: left;
     margin-right: 22px;
 }
-.dish-name,
-.dish-price{
+.dish-heading{
     font-family: Bitter, serif;
     color: #b88f3f;
 }
