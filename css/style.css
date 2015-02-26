@@ -200,6 +200,9 @@ html, body{
     margin-left: 246px;
     font-size: 17px;
 }
+.info, .popular-dishes span{
+    background-image: url(../images/bg-dishes.png);
+}
 .popular-dishes h2{
     font-family: Bitter, serif;
     color: #3c0403;
@@ -243,6 +246,12 @@ html, body{
 .dish-heading{
     font-family: Bitter, serif;
     color: #b88f3f;
+    font-size: 21px;
+    margin-bottom: 13px;
+    background: url(../images/bg-dish-heading.png) repeat-x;
+}
+.dish-heading .price{
+    float: right;
 }
 .dish-desc{
     font-family: OpenSans, sans-serif;
