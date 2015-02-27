@@ -228,6 +228,11 @@ html, body{
 .popular-dishes-nav li{
     display: inline-block;
 }
+.popular-dishes-nav a{
+    display: block;
+    height: 25px;
+    width: 25px;
+}
 
 .popular-dishes-nav .prev{
     width: 25px;
