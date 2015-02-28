@@ -253,10 +253,16 @@ html, body{
     color: #b88f3f;
     font-size: 21px;
     margin-bottom: 13px;
-    background: url(../images/bg-dish-heading.png) repeat-x;
 }
 .dish-heading .price{
     float: right;
+}
+/** TODO: dots  **/
+.dish-heading span:after{
+    content: "";
+    background: url(../images/bg-dish-heading.png) repeat-x;
+    width: 50px;
+    height: 26px;
 }
 .dish-desc{
     font-family: OpenSans, sans-serif;
