@@ -203,12 +203,14 @@ html, body{
 .info, .popular-dishes span{
     background-image: url(../images/bg-dishes.png);
 }
-.popular-dishes h2{
+.info h2{
     font-family: Bitter, serif;
     color: #3c0403;
     margin-top: 42px;
     margin-left: 27px;
     letter-spacing: 0.5px;
+}
+.popular-dishes h2 {
     float: left;
 }
 .popular-dishes-nav{
