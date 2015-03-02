@@ -67,7 +67,7 @@ html, body{
 }
 .info-right-col{
     float: right;
-    width: 310px;
+    width: 325px;
 }
 .awards li{
     display: inline-block;
@@ -206,12 +206,13 @@ html, body{
 .info h2{
     font-family: Bitter, serif;
     color: #3c0403;
-    margin-top: 42px;
-    margin-left: 27px;
+
     letter-spacing: 0.5px;
 }
 .popular-dishes h2 {
     float: left;
+    margin-top: 42px;
+    margin-left: 27px;
 }
 .popular-dishes-nav{
     float: right;
@@ -271,4 +272,7 @@ html, body{
     color: #536670;
     font-size: 14px;
     line-height: 24px;
+}
+.opening-hours h2{
+    margin-top: 42px;
 }
