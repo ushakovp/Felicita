@@ -277,11 +277,14 @@ html, body{
     margin-top: 42px;
 }
 .opening-hours ul{
-    margin: 0;
-    padding: 0;
+    margin: 42px 0 0;
+    padding: 14px 0 0 7px;
     list-style-type: none;
+    background-image: url(../images/bg-opening-hours.png);
 }
 .opening-hours li{
     color: #b88f3f;
+    font-weight: bold;
     text-transform: uppercase;
+    padding: 9px;
 }
