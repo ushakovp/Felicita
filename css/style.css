@@ -288,3 +288,8 @@ html, body{
     text-transform: uppercase;
     padding: 9px;
 }
+.opening-hours span{
+    float: right;
+    color: #475b66;
+    letter-spacing: 0px;
+}
