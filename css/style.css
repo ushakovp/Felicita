@@ -273,12 +273,16 @@ html, body{
     font-size: 14px;
     line-height: 24px;
 }
+.opening-hours {
+    font-family: Bitter, serif;
+    color: #b88f3f;
+}
 .opening-hours h2{
     margin-top: 42px;
 }
 .opening-hours ul{
     margin: 42px 0 0;
-    padding: 14px 0 0 7px;
+    padding: 14px 32px 0 7px;
     list-style-type: none;
     background-image: url(../images/bg-opening-hours.png);
 }
@@ -287,9 +291,12 @@ html, body{
     font-weight: bold;
     text-transform: uppercase;
     padding: 9px;
+    font-size: 17px;
+    line-height: 18px;
 }
 .opening-hours span{
     float: right;
     color: #475b66;
-    letter-spacing: 0px;
+    font-size: 14px;
+    font-weight: normal;
 }
