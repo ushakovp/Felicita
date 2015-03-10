@@ -303,3 +303,18 @@ html, body{
 .customer-reviews{
     margin-top: 38px;
 }
+.customer-reviews h2{
+    font-weight: normal;
+    font-size: 26px;
+}
+.customer-review{
+    padding: 24px 0 10px 17px;
+    color: #b88f3f;
+    font-family: OpenSans, sans-serif;
+    font-style: italic;
+    background-image: url(../images/bg-customer-review.png);
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 50px;
+    width: 280px;
+}
