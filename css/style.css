@@ -318,3 +318,12 @@ html, body{
     margin-top: 50px;
     width: 280px;
 }
+.customer-person{
+    font-family: OpenSans, sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    color: #536670;
+}
+.customer-person span{
+    font-weight: bold;
+}
