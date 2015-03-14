@@ -308,7 +308,7 @@ html, body{
     font-size: 26px;
 }
 .customer-review{
-    padding: 24px 0 10px 17px;
+    padding: 24px 0 20px 17px;
     color: #b88f3f;
     font-family: OpenSans, sans-serif;
     font-style: italic;
@@ -326,4 +326,7 @@ html, body{
 }
 .customer-person span{
     font-weight: bold;
+}
+.customer-person img{
+
 }
