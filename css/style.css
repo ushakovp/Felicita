@@ -329,5 +329,9 @@ html, body{
     vertical-align: middle;
 }
 .customer-person img{
-    margin: 8px 0 0 90px;
+    margin: 8px 8px 0 90px;
+}
+.customer-person p {
+    margin-left: 159px;
+    margin-top: 0;
 }
