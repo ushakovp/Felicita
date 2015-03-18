@@ -319,12 +319,16 @@ html, body{
     width: 280px;
 }
 .customer-person{
+    position: absolute;
     font-family: OpenSans, sans-serif;
     font-size: 13px;
     line-height: 16px;
     color: #536670;
 }
 .customer-person span{
+    position: relative;
+    top: 19px;
+    left: 157px;
     font-weight: bold;
     vertical-align: middle;
 }
@@ -333,5 +337,5 @@ html, body{
 }
 .customer-person p {
     margin-left: 159px;
-    margin-top: 0;
+    margin-top: -32px;
 }
