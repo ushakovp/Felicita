@@ -301,7 +301,7 @@ html, body{
     font-weight: normal;
 }
 .customer-reviews{
-    margin-top: 38px;
+    margin-top: 40px;
 }
 .customer-reviews h2{
     font-weight: normal;
@@ -319,14 +319,14 @@ html, body{
     width: 280px;
 }
 .customer-person{
-    position: absolute;
+    position: relative;
     font-family: OpenSans, sans-serif;
     font-size: 13px;
     line-height: 16px;
     color: #536670;
 }
 .customer-person span{
-    position: relative;
+    position: absolute;
     top: 19px;
     left: 157px;
     font-weight: bold;
