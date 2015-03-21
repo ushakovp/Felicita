@@ -260,7 +260,7 @@ html, body{
 .dish-heading .price{
     float: right;
 }
-/** TODO: Dots, waves **/
+/** TODO: Dots , waves **/
 .dish-heading span:after{
     content: "";
     background: url(../images/bg-dish-heading.png) repeat-x;
