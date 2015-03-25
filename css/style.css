@@ -273,6 +273,13 @@ html, body{
     font-size: 14px;
     line-height: 24px;
 }
+.all-menu{
+    float: right;
+    background-color: #b88f3f;
+    padding: 15px 20px;
+    width: 100px;
+    margin-right: 13px;
+}
 .opening-hours {
     font-family: Bitter, serif;
     color: #b88f3f;
